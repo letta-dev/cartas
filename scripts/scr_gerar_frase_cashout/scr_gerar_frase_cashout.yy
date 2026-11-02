@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_gerar_frase_cashout",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_gerar_frase_cashout",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

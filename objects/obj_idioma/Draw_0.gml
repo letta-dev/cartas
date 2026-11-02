@@ -1,0 +1,13 @@
+draw_self();
+draw_set_colour(c_black);
+draw_set_font(principal_p);
+//draw_text(x,y, string(global.idiomas[global.idioma_select]));
+
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+
+draw_text(x, y, global.idiomas[global.idioma_select]);
+
+// Volta ao padrão para não afetar outros textos
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
