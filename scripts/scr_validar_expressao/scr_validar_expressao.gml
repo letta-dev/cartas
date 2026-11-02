@@ -49,7 +49,6 @@ function scr_validar_expressao() {
 	if (valor_mesa == 24) global.acerto_consecutivo = 0
 
     obj_confirma_turno.resultado = resultado;
-	//var resultado = scr_validar_expressao();
 
 
     return resultado;
