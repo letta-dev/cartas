@@ -37,6 +37,7 @@
   "resources":[
     {"id":{"name":"principal_g","path":"fonts/principal_g/principal_g.yy",},},
     {"id":{"name":"principal_p","path":"fonts/principal_p/principal_p.yy",},},
+    {"id":{"name":"obj_ameacar","path":"objects/obj_ameacar/obj_ameacar.yy",},},
     {"id":{"name":"obj_carta","path":"objects/obj_carta/obj_carta.yy",},},
     {"id":{"name":"obj_confirma_turno","path":"objects/obj_confirma_turno/obj_confirma_turno.yy",},},
     {"id":{"name":"obj_confirma","path":"objects/obj_confirma/obj_confirma.yy",},},
