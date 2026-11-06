@@ -37,6 +37,7 @@
   "resources":[
     {"id":{"name":"principal_g","path":"fonts/principal_g/principal_g.yy",},},
     {"id":{"name":"principal_p","path":"fonts/principal_p/principal_p.yy",},},
+    {"id":{"name":"obj_ameaca","path":"objects/obj_ameaca/obj_ameaca.yy",},},
     {"id":{"name":"obj_ameacar","path":"objects/obj_ameacar/obj_ameacar.yy",},},
     {"id":{"name":"obj_carta","path":"objects/obj_carta/obj_carta.yy",},},
     {"id":{"name":"obj_confirma_turno","path":"objects/obj_confirma_turno/obj_confirma_turno.yy",},},
@@ -103,6 +104,7 @@
     {"id":{"name":"spr_menor","path":"sprites/spr_menor/spr_menor.yy",},},
     {"id":{"name":"spr_moeda","path":"sprites/spr_moeda/spr_moeda.yy",},},
     {"id":{"name":"spr_tapete","path":"sprites/spr_tapete/spr_tapete.yy",},},
+    {"id":{"name":"Sprite34","path":"sprites/Sprite34/Sprite34.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
