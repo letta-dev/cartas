@@ -52,14 +52,18 @@ function scr_validar_expressao() {
 		resultado = true
 		global.multiplicador_atual += global.incremento_multiplicador
 	}
-	if (valor_mesa == 24) resultado = true
-	if (valor_mesa == 24) global.usou_coringa = true else global.usou_coringa = false
-	if (valor_mesa == 24) global.acerto_consecutivo = 0
+	//if (valor_mesa == 24) resultado = true
+	//if (valor_mesa == 24) global.usou_coringa = true else global.usou_coringa = false
+	//if (valor_mesa == 24) global.acerto_consecutivo = 0
 	if (global.coringa_ativo) 
 	{
 		resultado = true
 		global.coringa_ativo = false
+		global.usou_coringa = false
+		global.acerto_consecutivo = 0
+		global.usou_coringa = true
 	}
+	else global.usou_coringa = false
 
     obj_confirma_turno.resultado = resultado;
 
