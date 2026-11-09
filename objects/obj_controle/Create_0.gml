@@ -70,8 +70,9 @@ moedas_restantes = global.pontuacao_total;
 
 //****** CORINGA ******\\
 global.acerto_consecutivo = 0;
-global.coringa = 6;
+global.coringa = 2;
 global.usou_coringa = false;
+global.coringa_ativo = false;
 
 
 //****** JOGADA DUPLA ******\\

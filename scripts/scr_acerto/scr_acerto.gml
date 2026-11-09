@@ -20,14 +20,14 @@ function scr_acerto()
 		show_debug_message("Idioma atual: " + global.idiomas[global.idioma_select]);
 		show_debug_message("Idioma atual: " + string(global.idioma_select));
 		if (global.usou_coringa == false) global.acerto_consecutivo ++
-		if (global.acerto_consecutivo == global.coringa)
+		/*if (global.acerto_consecutivo == global.coringa)
 		{
 			instance_create_layer(1000, 600, "Instances", obj_carta, {
 			    valor: 24,
 			    estado_carta: "coringa",
 			    animacao_ativa: true
 			});
-		}
+		}*/
 }
 
 		
