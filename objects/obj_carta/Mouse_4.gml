@@ -123,42 +123,6 @@ if (inst_condicao != noone && instance_exists(inst_condicao))
 	}
 }
 
-
-
-/*
-        // Se encontrou a carta da condição
-        if (inst_condicao != noone && instance_exists(inst_condicao))
-        {
-            // --- VARIÁVEIS DE JUICE PARA O ARREMESSO ---
-            var espalhamento_x = 25; // O quão espalhadas elas ficam para os lados
-            var espalhamento_y = 15; // O quão espalhadas para cima/baixo
-            
-            // Define o destino final com a variação aleatória
-            destino_x = inst_condicao.x + random_range(-espalhamento_x, espalhamento_x);
-            destino_y = (inst_condicao.y + 20) + random_range(-espalhamento_y, espalhamento_y);
-
-            // Guarda a posição de partida para o cálculo da curva física
-            inicio_x = x;
-            inicio_y = y;
-
-            // Configura a física da rotação (Giro no ar)
-            rotacao_inicial = image_angle;
-            rotacao_alvo = random_range(-15, 15); // Ângulo final levemente torto na mesa
-
-            // Reinicia o progresso da interpolação
-            progresso_animacao = 0;
-
-            // Inicia a animação
-            animacao_ativa = true;
-            atraso_animacao = 0;
-
-            // Atualiza o estado da instância correta
-            estado_carta = "mesa";
-        }
-    }
-}
-
-*/
 else if (estado_carta == "mesa")
 {
     // Volta para a mão
