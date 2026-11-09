@@ -17,7 +17,7 @@ global.valor_maximo = 20;             // Maior número possível
 global.qtd_cartas_base = 5;           // Cartas geradas para resolver a rodada
 global.qtd_cartas_extras = 1;         // Cartas adicionais escolhidas pelo jogador
 global.escolhidas = 0;
-global.limite_mesa = 1;
+global.limite_mesa = 2;
 global.limite = 3;
 
 // Pontuação e Multiplicadores (Modelo B)
@@ -70,7 +70,7 @@ moedas_restantes = global.pontuacao_total;
 
 //****** CORINGA ******\\
 global.acerto_consecutivo = 0;
-global.coringa = 2;
+global.coringa = 6;
 global.usou_coringa = false;
 global.coringa_ativo = false;
 

@@ -1,7 +1,7 @@
-if visible == true
-{
+//if visible == true
+//{
 
-	scr_validar_expressao();
+	var resultado = scr_validar_expressao();
 
 	// 1. Aplica as consequências baseadas no resultado
 	if (resultado == true) 
@@ -44,4 +44,4 @@ if visible == true
 	    }
 	}
 	
-}
+//}

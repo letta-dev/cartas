@@ -36,8 +36,27 @@ else if (estado_carta == "mao")
     }
 
     // Só permite jogar se não ultrapassar o limite
-    if (cartas_na_mesa < global.limite_mesa)
-    {
+		// Verifica se pode adicionar outra carta à mesa
+		var pode_adicionar_carta = true;
+
+		// Se já existe uma carta na mesa, estamos tentando fazer jogada dupla
+		if (cartas_na_mesa >= 1)
+		{
+		    // Calcula os turnos restantes, incluindo o atual
+		    var turnos_restantes = global.turnos_por_rodada - global.turno_atual + 1;
+
+		    // Quantidade de cartas disponíveis
+		    var cartas_na_mao = array_length(global.cartas_mao);
+
+		    // Só permite a segunda carta se houver cartas excedentes
+		    pode_adicionar_carta = (cartas_na_mao > turnos_restantes);
+		}
+
+		// Só permite jogar se respeitar os dois limites
+		if (cartas_na_mesa < global.limite_mesa && pode_adicionar_carta)
+		{
+		
+		
         // Guarda o ID da carta da condição
         var inst_condicao = noone;
 

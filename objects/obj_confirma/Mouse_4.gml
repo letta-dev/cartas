@@ -6,7 +6,9 @@ if visible == true
 	    if (estado_carta == "base" || estado_carta == "pre_escolha") 
 		{
 	        estado_carta = "mao";
-	    }
+			array_push(global.cartas_mao, id);
+
+		}
 	}
 	with (obj_carta) {
 	    if (estado_carta == "mulligan") 
