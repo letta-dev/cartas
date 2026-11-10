@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_geral_2",
-    "path":"sprites/spr_geral_2/spr_geral_2.yy",
+    "name":"spr_saco",
+    "path":"sprites/spr_saco/spr_saco.yy",
   },
   "spriteMaskId":null,
   "visible":true,

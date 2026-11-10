@@ -20,3 +20,7 @@ if (abs(global.multiplicador_atual - multiplicador_exibidos) < 0.01)
 {
     multiplicador_exibidos = global.multiplicador_atual;
 }
+
+
+
+

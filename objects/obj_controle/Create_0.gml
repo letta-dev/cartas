@@ -14,7 +14,7 @@ global.valor_minimo = 1;              // Menor número possível
 global.valor_maximo = 20;             // Maior número possível
 
 // Regras da Mão
-global.qtd_cartas_base = 5;           // Cartas geradas para resolver a rodada
+global.qtd_cartas_base = 3;           // Cartas geradas para resolver a rodada
 global.qtd_cartas_extras = 1;         // Cartas adicionais escolhidas pelo jogador
 global.escolhidas = 0;
 global.limite_mesa = 2;
