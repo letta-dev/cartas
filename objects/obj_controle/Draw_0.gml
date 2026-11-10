@@ -1,4 +1,6 @@
 draw_self()
+
+/*
 var linha = 20
 var quant = array_length(global.cartas_mao)
 draw_text(x,y,quant)

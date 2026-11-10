@@ -1,5 +1,5 @@
-//if visible == true
-//{
+if visible == true
+{
 
 	var resultado = scr_validar_expressao();
 
@@ -44,4 +44,4 @@
 	    }
 	}
 	
-//}
+}

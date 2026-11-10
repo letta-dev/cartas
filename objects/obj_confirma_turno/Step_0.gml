@@ -2,6 +2,7 @@ var qtd_pre_escolha = 0;
 with (obj_carta) {
     if (estado_carta == "mesa")
 	{
+		var qtd_pre_escolha = 0;
         qtd_pre_escolha++;
     }
 }
