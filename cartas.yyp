@@ -105,6 +105,7 @@
     {"id":{"name":"spr_moeda","path":"sprites/spr_moeda/spr_moeda.yy",},},
     {"id":{"name":"spr_saco","path":"sprites/spr_saco/spr_saco.yy",},},
     {"id":{"name":"spr_tapete","path":"sprites/spr_tapete/spr_tapete.yy",},},
+    {"id":{"name":"spr_teste","path":"sprites/spr_teste/spr_teste.yy",},},
     {"id":{"name":"Sprite34","path":"sprites/Sprite34/Sprite34.yy",},},
   ],
   "resourceType":"GMProject",

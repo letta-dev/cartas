@@ -63,8 +63,8 @@ if (!animacao_ativa) {
             image_angle = 0;
             break;
         case "mao":
-			image_xscale = 1;
-			image_yscale = 1;
+			image_xscale = 1.3;
+			image_yscale = 1.3;
             image_angle = 0;
             break;
         case "mesa":

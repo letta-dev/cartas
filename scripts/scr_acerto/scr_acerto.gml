@@ -31,12 +31,7 @@ function scr_acerto()
 
     var pos_x = ((room_width / 2) - 320);
 
-    instance_create_layer(
-        pos_x,
-        400,
-        "Instances",
-        obj_fala
-    );
+    //instance_create_layer(pos_x,400,"Instances",obj_fala);
 
     show_debug_message(string(msg));
 

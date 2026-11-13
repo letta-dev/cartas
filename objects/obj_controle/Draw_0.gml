@@ -1,9 +1,10 @@
 draw_self()
 
-/*
+
 var linha = 20
-var quant = array_length(global.cartas_mao)
-draw_text(x,y,quant)
-//draw_text(x,y+linha,(global.acerto_consecutivo))
+var _teste = (global.acerto_consecutivo / global.coringa);
+
+draw_text(x,y,(_teste))
+draw_text(x,y+linha,(global.turno_atual))
 //draw_text(x,y + 2*linha,(global.coringa))
 //draw_text(x,y+ 3*linha,(global.usou_coringa))

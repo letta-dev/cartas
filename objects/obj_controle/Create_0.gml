@@ -35,7 +35,7 @@ global.max_escudos = 1;               // Limite máximo de escudos acumulados
 global.rodada_atual =0;              // Rodada em andamento
 global.turno_atual = 1;               // Turno em andamento dentro da rodada
 
-global.pontuacao_total = 00;          // Pontuação acumulada
+global.pontuacao_total = 0;          // Pontuação acumulada
 global.multiplicador_atual = global.multiplicador_inicial; // Multiplicador ativo
 
 global.tem_escudo = false;           // Se o jogador possui escudo ativo no momento
@@ -73,6 +73,7 @@ global.acerto_consecutivo = 0;
 global.coringa = 6;
 global.usou_coringa = false;
 global.coringa_ativo = false;
+global.chance_ameaca = 0;
 
 
 //****** JOGADA DUPLA ******\\
