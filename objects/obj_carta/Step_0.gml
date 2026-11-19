@@ -293,3 +293,32 @@ else if (animacao_ativa) {
 
 
 
+//***** ANIMAÇÃO *****\\
+
+// ==========================================
+// ANIMAÇÃO DE ERRO
+// ==========================================
+
+if (erro_anim_ativa)
+{
+    erro_anim_timer++;
+
+    // Pulso vermelho
+    var pulso = abs(sin(erro_anim_timer * 0.5));
+
+    image_blend = make_color_rgb(
+        255,
+        lerp(255, 60, pulso),
+        lerp(255, 60, pulso)
+    );
+
+    // Finaliza a animação
+    if (erro_anim_timer >= erro_anim_duracao)
+    {
+        erro_anim_ativa = false;
+        erro_anim_timer = 0;
+        image_blend = c_white;
+    }
+}
+
+

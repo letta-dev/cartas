@@ -15,3 +15,19 @@ with (obj_confirma_turno) {
         visible = false;
     }
 }
+
+
+
+/// TRANSIÇÃO DE DERROTA COM DELAY
+
+if (derrota_pendente)
+{
+    timer_derrota++;
+
+    // Aguarda a animação de erro
+    if (timer_derrota >= 24)
+    {
+        derrota_pendente = false;
+        room_goto(rm_final);
+    }
+}

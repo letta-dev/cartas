@@ -25,4 +25,13 @@ rotacao_alvo = 0;             // Ângulo levemente torto onde ela vai parar na m
 
 
 
+//***** ANIMAÇÃO *****\\
+
+// Feedback visual de erro
+erro_anim_ativa = false;
+erro_anim_timer = 0;
+erro_anim_duracao = 20;
+
+
+
 
