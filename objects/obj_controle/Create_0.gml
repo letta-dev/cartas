@@ -21,6 +21,8 @@ global.limite_mesa = 2;
 global.limite = 3;
 
 // Pontuação e Multiplicadores (Modelo B)
+global.bonus_sequencia = 100
+global.bonus_sequencia_pontos = 0
 global.pontos_por_acerto = 5;         // Pontos base concedidos por acerto em um turno
 global.multiplicador_inicial = 1.0;   // Multiplicador com o qual o jogo começa
 global.incremento_multiplicador = 0.25; // Quanto o multiplicador sobe por rodada perfeita (ex: 1.0 -> 1.5 -> 2.0)

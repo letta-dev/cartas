@@ -95,6 +95,14 @@ if (!animacao_ativa) {
 			image_yscale = 1.2;
             image_angle = 0;
 			break;
+		case "correto":
+			image_xscale = 1.1
+			image_yscale = 1.1
+			break;
+		case "incorreto":
+			image_xscale = 1.1
+			image_yscale = 1.1
+			break;
     }
 }
 
